@@ -12,7 +12,7 @@ const handleSubmit = (e) => {
         "service_i4cy8oa",       // ← Reemplaza con tu Service ID real
         "template_eexrss9",      // ← Reemplaza con tu Template ID real
         e.target,
-        "yRkLxvCgM6QHk2ulB"      // ← Reemplaza con tu Public Key real
+        "c_tysCIbKOlGePgq8"      // ← Reemplaza con tu Public Key real
     )
     .then(
         (result) => {
