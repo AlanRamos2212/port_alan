@@ -1,0 +1,46 @@
+/* Estilos básicos para la Navbar */
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .navbar a:hover {
+    background-color: #575757; /* Cambiar color al pasar el ratón */
+  }
+  
+  /* Estilos para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .navbar ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar li {
+      margin-bottom: 10px;
+    }
+  }
+  
