@@ -2,6 +2,7 @@
 
 import React from "react";
 import { FaJs, FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaDatabase } from "react-icons/fa"; // Importando los iconos
+import { SiAngular, SiFlutter, SiPostgresql, SiSpringboot, SiTypescript } from "react-icons/si";
 
 import "../styles/Skills.css"; // Import the CSS file for styling
 
@@ -30,6 +31,26 @@ return (
         <div className="skill-card mysql">
             <FaDatabase className="skill-icon" />
             <h3>MySQL</h3>
+        </div>
+        <div className="skill-card angular">
+            <SiAngular className="skill-icon" />
+            <h3>Angular</h3>
+        </div>
+        <div className="skill-card spring-boot">
+            <SiSpringboot className="skill-icon" />
+            <h3>Spring Boot</h3>
+        </div>
+        <div className="skill-card typescript">
+            <SiTypescript className="skill-icon" />
+            <h3>TypeScript</h3>
+        </div>
+        <div className="skill-card flutter">
+            <SiFlutter className="skill-icon" />
+            <h3>Flutter</h3>
+        </div>
+        <div className="skill-card postgresql">
+            <SiPostgresql className="skill-icon" />
+            <h3>PostgreSQL</h3>
         </div>
         </div>
     </div>

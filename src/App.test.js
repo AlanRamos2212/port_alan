@@ -1,8 +1,8 @@
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('navigates to the projects page', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('link', { name: /proyectos/i }));
+  expect(screen.getByRole('heading', { name: /proyectos/i })).toBeInTheDocument();
 });

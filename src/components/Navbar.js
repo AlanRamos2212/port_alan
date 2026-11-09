@@ -13,6 +13,9 @@ export default function Navbar() {
           <Link to="/skills">Habilidades</Link> {/* Redirige a la sección "Skills" */}
         </li>
         <li>
+          <Link to="/proyectos">Proyectos</Link>
+        </li>
+        <li>
           <Link to="/contact">Contacto</Link> {/* Redirige a la sección "Contact" */}
         </li>
       </ul>

@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact"; // Si tienes una sección de Contacto
+import Projects from "./components/Projects";
 import "./styles/Navbar.css"; // Importa el CSS de la Navbar
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<About />} /> {/* Página de inicio con About */}
         <Route path="/skills" element={<Skills />} /> {/* Página de Skills */}
+        <Route path="/proyectos" element={<Projects />} />
         <Route path="/contact" element={<Contact />} /> {/* Página de Contact */}
         {/* Agrega más rutas si tienes más secciones */}
       </Routes>

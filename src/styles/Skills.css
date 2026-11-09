@@ -74,6 +74,31 @@
     color: white;
 }
 
+.skill-card.angular {
+    background-color: #dd0031;
+    color: white;
+}
+
+.skill-card.spring-boot {
+    background-color: #6db33f;
+    color: white;
+}
+
+.skill-card.typescript {
+    background-color: #3178c6;
+    color: white;
+}
+
+.skill-card.flutter {
+    background-color: #02569b;
+    color: white;
+}
+
+.skill-card.postgresql {
+    background-color: #336791;
+    color: white;
+}
+
 /* Estilos responsive */
 @media (max-width: 768px) {
     .skills-title {
