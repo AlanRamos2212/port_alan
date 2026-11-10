@@ -37,7 +37,7 @@ export default function About() {
                         </ul>
                     </div>
                     <div className="cta-button">
-                        <a href="cv.pdf" download className="cta-link">
+                        <a href="CV - Alan Perez.pdf" download className="cta-link">
                         Descargar CV
                         </a>
                     </div>
