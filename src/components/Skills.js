@@ -1,7 +1,7 @@
 // src/components/Skills.js
 
 import React from "react";
-import { FaJs, FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaDatabase } from "react-icons/fa"; // Importando los iconos
+import { FaJs, FaReact, FaNodeJs, FaHtml5, FaDatabase } from "react-icons/fa"; // Importando los iconos
 import { SiAngular, SiFlutter, SiPostgresql, SiSpringboot, SiTypescript } from "react-icons/si";
 
 import "../styles/Skills.css"; // Import the CSS file for styling

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../styles/About.css";
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function About() {
     useEffect(() => {
@@ -18,13 +18,13 @@ export default function About() {
                 <div className="about-text-container fade-in">
                     <h1 className="about-title">Hola, soy Alan</h1>
                     <p className="about-subtitle">
-                        Me encanta construir aplicaciones web funcionales y atractivas.
+                        Me apasiona construir aplicaciones web funcionales y atractivas.
                         <br className="hide-on-small" />
                         Estudio desarrollo de software y disfruto aprender tecnologías nuevas
                         para resolver problemas reales con código.
                     </p>
                     <p className="about-text">
-                        Tengo experiencia en proyectos académicos y personales con React,
+                        Tengo experiencia en proyectos académicos y personales con Frameworks web como Angular Y React integrando
                         bases de datos, APIs y diseño de interfaces. Me gusta colaborar,
                         aprender y seguir creciendo como desarrollador.
                     </p>
@@ -38,7 +38,7 @@ export default function About() {
                     </div>
                     <div className="cta-button">
                         <a href="cv.pdf" download className="cta-link">
-                            Descargar CV
+                        Descargar CV
                         </a>
                     </div>
                 </div>
